@@ -239,13 +239,18 @@ main {
 /* footer */
 footer {
   background-color: #fff8f3;
-  padding: 120px 0;
+  padding: 100px 0;
 }
 footer .informations {
   width: 1140px;
   margin: 0 auto;
 }
 
+.social-links {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
 form {
   display: flex;
   flex-direction: column;
@@ -276,6 +281,7 @@ textarea {
   font-size: 16px;
   color: #757575;
   font-family: "Open Sans", sans-serif;
+  border-radius: 5px;
 }
 
 textarea:focus {
