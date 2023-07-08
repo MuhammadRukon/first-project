@@ -15,10 +15,6 @@ a {
 body {
   font-family: "Open Sans", sans-serif;
 }
-/* .container {
-  width: 1200px;
-  margin: 0 auto;
-} */
 
 .btn-primary {
   padding: 18px 35px;
@@ -28,6 +24,44 @@ body {
   font-size: 20px;
   border-radius: 7px;
 }
+
+.section-title {
+  color: #181818;
+  font-size: 35px;
+  line-height: normal;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 30px;
+}
+
+.section-desc {
+  color: #757575;
+  line-height: 2;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.informations {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.information {
+  padding: 20px;
+  /* box-sizing: border-box; */
+}
+.info {
+  color: #757575;
+  margin-bottom: 10px;
+  line-height: 28px;
+  font-size: 15px;
+}
+.info-highlight {
+  font-weight: 700;
+  color: #474747;
+}
+
 /* shared styles */
 
 /* nav  */
@@ -56,21 +90,6 @@ nav ul > :last-child {
   font-weight: 800;
 }
 
-.section-title {
-  color: #181818;
-  font-size: 35px;
-  line-height: normal;
-  font-weight: 700;
-  font-style: normal;
-  margin-bottom: 30px;
-}
-
-.section-desc {
-  color: #757575;
-  line-height: 2;
-  max-width: 65%;
-  margin: 0 auto;
-}
 /* nav  */
 
 /* header */
@@ -81,6 +100,13 @@ nav ul > :last-child {
   background-position: bottom right;
 }
 /* header */
+
+/* main */
+main {
+  width: 1140px;
+  margin: 0 auto;
+}
+/* main */
 
 /* banner */
 .banner {
@@ -132,7 +158,75 @@ nav ul > :last-child {
 .about {
   background-color: #fff8f3;
   padding: 150px;
-  margin: 130px 230px;
+  margin: 130px 0px;
   text-align: center;
 }
+.about .information {
+  padding: 10px;
+}
+
 /* about */
+
+/* what i do  */
+.what-I-do {
+  text-align: center;
+}
+
+.what-I-do .informations {
+  text-align: left;
+  gap: 24px;
+}
+
+.what-I-do .information {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 33px;
+}
+
+.info-img {
+  margin-bottom: 15px;
+}
+
+.what-I-do .info-highlight {
+  margin-bottom: 5px;
+}
+
+.what-I-do .info {
+  margin-bottom: 0;
+}
+
+/* what i do  */
+
+/* summary resume */
+.resume {
+  text-align: center;
+  margin: 150px 0;
+}
+.resume .section-title {
+  margin-bottom: 60px;
+}
+.resume .informations {
+  text-align: left;
+}
+.resume .info-highlight {
+  font-size: 25px;
+  margin-bottom: 8px;
+}
+.info-low-highlight {
+  font-size: 20px;
+  color: #757575;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.resume .info {
+  width: 95%;
+}
+
+.hr {
+  border: 1px solid rgb(231, 231, 231);
+}
+.margin-bottom {
+  margin-bottom: 20px !important;
+}
+/* summary resume */
